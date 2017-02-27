@@ -2,8 +2,8 @@
 
 | Route          | HTTP   | Description  | Role |
 | ----------     |:------:|-------------:|------:|
-| /api/signin    | POST    | Sign in user |user|
-| /api/signup    | POST    | Register user |user|
+| /signin    | POST    | Sign in user |user|
+| /signup    | POST    | Register user |user|
 | /api/users     | GET     | Get all the users |admin|
 | /api/user/:id  | GET     | Get a single user |user|
 | /api/user      | POST    | Create a user |admin|
